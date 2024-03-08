@@ -6,12 +6,12 @@ The ultimate objective of this script is to build and evaluate models capable of
 * Python 3.x
 * pip
 
-__Data used:__ 
+## Data used: 
 * _labeledTrainData_ - The labeled training set. The file is tab-delimited and has a header row followed by 25,000 rows containing an id, sentiment, and text for each review.  
 * _testData_ - The test set. The tab-delimited file has a header row followed by 25,000 rows containing an id and text for each review. Your task is to predict the sentiment for each one. 
 * _unlabeledTrainData_ - An extra training set with no labels. The tab-delimited file has a header row followed by 50,000 rows containing an id and text for each review. 
 
-__Steps:__ 
+## Steps:_
 > 1. Data Preprocessing:
 >> * The movie review dataset is loaded and preprocessed to remove HTML tags, punctuation, and stopwords.
 >> * The cleaned text data is tokenized into words and sentences.
