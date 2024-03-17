@@ -22,6 +22,5 @@ The ultimate objective of this script is to build and evaluate models capable of
 >> * The average feature vectors for each review are computed by averaging the Word2Vec word embeddings of its constituent words.
 >> * These average feature vectors serve as numerical representations of the review texts and are used as input for classification.
 > 4. Classification:
->> * Two classification approaches are implemented:
->>> * Random Forest Classifier: A machine learning model is trained on the training data to classify reviews into positive or negative categories.
->>> * KMeans Clustering: Unsupervised clustering is performed to group similar reviews together based on their feature representations.
+>> * Multiple classification approaches are implemented:
+>>> * A machine learning model is trained on the training data to classify reviews into positive or negative categories, with different techniques tried and compared.
